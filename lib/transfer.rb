@@ -1,5 +1,4 @@
-
-  class Transfer
+class Transfer
 
   attr_accessor :transfer, :sender, :receiver, :status, :amount
   #attr_reader :amount
@@ -36,6 +35,9 @@
     self.sender.balance = 1000
     self.status = "reversed"
   end
+  end
+
+
 
 
 
